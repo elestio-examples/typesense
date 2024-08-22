@@ -10,6 +10,8 @@ ports:
 environments:
   - key: "SOFTWARE_VERSION_TAG"
     value: "27.0.rc34"
+  - key: "ADMIN_PASSWORD"
+    value: "random_password"
   - key: "TYPESENSE_API_KEY"
     value: "random_password"
 config:
