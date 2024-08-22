@@ -31,4 +31,4 @@ lifeCycleConfig:
 webUI:
   - url: "https://[CI_CD_DOMAIN]/health"
     label: "Typesense API"
-    password: "[TYPESENSE_API_KEY]"
+    password: "random_password"

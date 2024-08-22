@@ -13,7 +13,7 @@ Deploy Typesense server with CI/CD on Elestio
 You can open Typesense API here:
 
     URL: https://[CI_CD_DOMAIN]/health
-    TYPESENSE_API_KEY: [TYPESENSE_API_KEY]
+    TYPESENSE_API_KEY: "random_password"
 
 ## API Access
 
