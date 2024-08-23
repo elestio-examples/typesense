@@ -7,7 +7,7 @@ services:
     ports:
       - "172.17.0.1:8108:8108"
     volumes:
-      - ./typesense-data:/data
+      - ./typesense_data:/data
     command: 
       - --data-dir 
       - /data
