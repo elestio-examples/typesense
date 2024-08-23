@@ -5,7 +5,7 @@ services:
     image: typesense/typesense:${SOFTWARE_VERSION_TAG}
     restart: always
     ports:
-      - "172.17.0.1:35506:8108"
+      - "172.17.0.1:8108:8108"
     volumes:
       - ./typesense-data:/data
     command: 
