@@ -14,6 +14,10 @@ environments:
     value: "random_password"
   - key: "TYPESENSE_API_KEY"
     value: "random_password"
+  - key: "TYPESENSE_DATA_DIR"
+    value: "/data"
+  - key: "TYPESENSE_ENABLE_CORS"
+    value: "true"
 config:
   runTime: "dockerCompose"
   version: ""
