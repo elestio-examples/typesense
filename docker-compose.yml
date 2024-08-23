@@ -8,6 +8,8 @@ services:
       - "172.17.0.1:8108:8108"
     volumes:
       - ./typesense_data:/data
+    env_file:
+      - .env
     command: 
       - --data-dir 
       - /data
